@@ -1,4 +1,4 @@
-# QuizMD Player
+# QuizMD Web Client
 
 A simple, open-source web player for [QuizMD](https://quizmd.org) files. Load quizzes from GitHub and play them in your browser.
 
@@ -42,14 +42,14 @@ Get a full breakdown with score, pass/fail status, and per-question results:
 ## Installation
 
 ```bash
-pip install quizmd-player
+pip install quizmd-web-client
 ```
 
 Or install from source:
 
 ```bash
-git clone https://github.com/learnspec/quizmd-player.git
-cd quizmd-player
+git clone https://github.com/learnspec/quizmd-web-client.git
+cd quizmd-web-client
 pip install -e .
 ```
 
@@ -58,17 +58,17 @@ pip install -e .
 ### CLI
 
 ```bash
-# Start the web player
-quizmd-player
+# Start the web client
+quizmd-web
 
 # Load a specific repo or file
-quizmd-player learnspec/samples-learnspec
+quizmd-web learnspec/samples-learnspec
 
 # Custom port and host
-quizmd-player --port 9000 --host 0.0.0.0
+quizmd-web --port 9000 --host 0.0.0.0
 
 # Don't open browser automatically
-quizmd-player --no-open
+quizmd-web --no-open
 ```
 
 ### URL parameters
@@ -93,10 +93,10 @@ Same as [quizmd-tui](https://github.com/learnspec/quizmd-tui-client):
 ## Development
 
 ```bash
-git clone https://github.com/learnspec/quizmd-player.git
-cd quizmd-player
+git clone https://github.com/learnspec/quizmd-web-client.git
+cd quizmd-web-client
 pip install -e .
-quizmd-player --no-open
+quizmd-web --no-open
 ```
 
 ## License

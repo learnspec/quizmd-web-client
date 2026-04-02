@@ -3,14 +3,14 @@ requires = ["setuptools>=64", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "quizmd-player"
+name = "quizmd-web-client"
 version = "0.1.0"
-description = "QuizMD web player — play quizzes in your browser"
+description = "QuizMD web client — play quizzes in your browser"
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.9"
 authors = [{ name = "learnspec" }]
-keywords = ["quizmd", "quiz", "web", "education", "player"]
+keywords = ["quizmd", "quiz", "web", "education", "client"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "License :: OSI Approved :: MIT License",
@@ -24,11 +24,11 @@ dependencies = [
 ]
 
 [project.scripts]
-quizmd-player = "quizmd_player.cli:main"
+quizmd-web = "quizmd_player.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/learnspec/quizmd-player"
-Repository = "https://github.com/learnspec/quizmd-player"
+Homepage = "https://github.com/learnspec/quizmd-web-client"
+Repository = "https://github.com/learnspec/quizmd-web-client"
 
 [tool.setuptools.packages.find]
 where = ["src"]

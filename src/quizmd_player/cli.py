@@ -1,4 +1,4 @@
-"""CLI entry point for quizmd-player."""
+"""CLI entry point for quizmd-web-client."""
 
 from __future__ import annotations
 
@@ -8,8 +8,8 @@ import webbrowser
 
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(
-        prog="quizmd-player",
-        description="QuizMD Player — play quizzes in your browser",
+        prog="quizmd-web",
+        description="QuizMD Web Client — play quizzes in your browser",
     )
     parser.add_argument(
         "source",
